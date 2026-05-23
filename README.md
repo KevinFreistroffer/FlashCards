@@ -45,6 +45,8 @@ Serve the built site over **HTTPS** (e.g. Netlify, Vercel, GitHub Pages with HTT
 - **iOS (Safari):** Share → **Add to Home Screen**.
 - **Desktop Chrome/Edge:** install icon in the address bar, if shown.
 
+On GitHub Pages, open the app from **`https://<user>.github.io/ChineseFlashCards/`** (with trailing path), not the root `github.io` URL. If you installed an older build and the shortcut opens a blank or “not found” page, remove the home-screen icon and install again after a fresh deploy.
+
 ## Tech
 
 - React 19, Vite 8, TypeScript
