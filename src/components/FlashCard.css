@@ -1,0 +1,116 @@
+.flash-card-scene {
+  --card-min-h: clamp(220px, 42svh, 320px);
+  perspective: 1200px;
+  width: min(100%, 440px);
+  min-height: var(--card-min-h);
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  user-select: none;
+  display: block;
+}
+
+.flash-card-scene:focus-visible {
+  outline: 3px solid var(--accent, #aa3bff);
+  outline-offset: 4px;
+  border-radius: 20px;
+}
+
+.flash-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: var(--card-min-h);
+  transform-style: preserve-3d;
+  transition: transform 0.55s cubic-bezier(0.4, 0.2, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flash-card-inner {
+    transition-duration: 0.01ms;
+  }
+}
+
+.flash-card-inner--flipped {
+  transform: rotateY(180deg);
+}
+
+.flash-card-face {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 1.25rem 1rem;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--card-face-bg, var(--bg));
+  box-shadow: var(--shadow);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.flash-card-front {
+  color: var(--text-h);
+}
+
+.flash-card-back {
+  transform: rotateY(180deg);
+  background: var(--card-back-bg, var(--code-bg));
+}
+
+.flash-card-hanzi {
+  font-size: clamp(2.25rem, 9vw, 3.25rem);
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+}
+
+.flash-card-pinyin {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.02em;
+}
+
+.flash-card-pinyin--solo {
+  font-size: clamp(1.5rem, 6vw, 2rem);
+}
+
+.flash-card-pinyin--small {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+.flash-card-meta {
+  position: absolute;
+  bottom: 0.85rem;
+  font-size: 0.72rem;
+  color: var(--text);
+  opacity: 0.85;
+}
+
+.flash-card-english {
+  font-size: clamp(1.05rem, 4vw, 1.35rem);
+  line-height: 1.45;
+  text-align: center;
+  font-weight: 500;
+  color: var(--text-h);
+  max-width: 100%;
+}
+
+.flash-card-back-extra {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-h);
+}
