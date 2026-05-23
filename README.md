@@ -35,7 +35,7 @@ npm run build:vocab   # regenerate src/data/vocabulary.json from HSK source
 
 ## GitHub Pages
 
-Project site: `https://<user>.github.io/ChineseFlashCards/` — `base` in [`vite.config.ts`](./vite.config.ts) must match the repo name.
+Project site: `https://<user>.github.io/FlashCards/` — `base` in [`vite.config.ts`](./vite.config.ts) must match the repo name.
 
 After deploy, remove old PWA shortcuts and reinstall from the full Pages URL if the installed app shows the wrong path.
 

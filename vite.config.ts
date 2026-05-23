@@ -2,8 +2,8 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vitest/config'
 
-/** Must match the GitHub repo name for project Pages (https://user.github.io/ChineseFlashCards/). */
-const base = '/ChineseFlashCards/'
+/** Must match the GitHub repo name for project Pages (https://user.github.io/FlashCards/). */
+const base = '/FlashCards/'
 
 // https://vite.dev/config/
 export default defineConfig({
