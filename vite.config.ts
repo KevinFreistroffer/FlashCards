@@ -14,8 +14,8 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        name: 'Chinese Flash Cards',
-        short_name: 'ZH Flash',
+        name: 'Chinese FlashCards',
+        short_name: 'Chinese FlashCards',
         description: 'HSK vocabulary flash cards with pinyin and English',
         theme_color: '#16171d',
         background_color: '#16171d',

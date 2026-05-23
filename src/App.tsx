@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="app">
       <header className="app-header">
-        <h1 className="app-title">Chinese flash cards</h1>
+        <h1 className="app-title">Chinese FlashCards</h1>
         <p className="app-sub">
           Tap the card to reveal English. Use &ldquo;Next&rdquo; for another
           word.
