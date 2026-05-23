@@ -1,0 +1,152 @@
+[
+  {
+    "id": "cca-1",
+    "question": "When did Anthropic launch Claude Certified Architect – Foundations?",
+    "answer": "March 12, 2026 (Anthropic’s first official architecture-level Claude certification)."
+  },
+  {
+    "id": "cca-2",
+    "question": "How many questions are on the CCA Foundations exam?",
+    "answer": "60 multiple-choice questions (one correct answer, three distractors per question)."
+  },
+  {
+    "id": "cca-3",
+    "question": "How long is the Claude Certified Architect Foundations exam?",
+    "answer": "120 minutes in one continuous, proctored session."
+  },
+  {
+    "id": "cca-4",
+    "question": "What is the passing score for the CCA Foundations exam?",
+    "answer": "720 on a scaled score from 100 to 1,000."
+  },
+  {
+    "id": "cca-5",
+    "question": "What is the standard exam fee for CCA Foundations?",
+    "answer": "$99 per attempt (register via Anthropic Academy on Skilljar)."
+  },
+  {
+    "id": "cca-6",
+    "question": "Who can take the exam for $0 on early partner programs?",
+    "answer": "The first 5,000 Claude Partner Network employees (per published program terms)."
+  },
+  {
+    "id": "cca-7",
+    "question": "When do you receive your score report after the exam?",
+    "answer": "Within about two business days, including section breakdowns."
+  },
+  {
+    "id": "cca-8",
+    "question": "Is the CCA Foundations exam open-book or proctored?",
+    "answer": "Proctored and closed-book — no external resources or in-session AI assistance."
+  },
+  {
+    "id": "cca-9",
+    "question": "How many domains does the CCA Foundations exam cover?",
+    "answer": "Five weighted domains focused on production Claude solution design."
+  },
+  {
+    "id": "cca-10",
+    "question": "Which domains are among the highest-weighted on the exam?",
+    "answer": "Agentic architecture and Claude Code (per official exam domain weighting)."
+  },
+  {
+    "id": "cca-11",
+    "question": "How many scenarios appear on the exam?",
+    "answer": "4 of 6 published scenarios are randomly selected for your exam form."
+  },
+  {
+    "id": "cca-12",
+    "question": "Is there a penalty for guessing on the CCA exam?",
+    "answer": "No penalty for wrong guesses; unanswered questions count as incorrect."
+  },
+  {
+    "id": "cca-13",
+    "question": "Where do you register and access official prep courses?",
+    "answer": "Anthropic Academy on Skilljar (partner access paths may apply for the exam itself)."
+  },
+  {
+    "id": "cca-14",
+    "question": "What does CCA Foundations primarily validate?",
+    "answer": "Ability to make informed tradeoffs when building production-grade applications with Claude — not deep transformer theory."
+  },
+  {
+    "id": "cca-15",
+    "question": "What is the entry point of Anthropic’s certification stack?",
+    "answer": "Claude Certified Architect – Foundations; additional seller, developer, and advanced architect tiers were announced for later in 2026."
+  },
+  {
+    "id": "cca-16",
+    "question": "How do organizations typically gain exam access at launch?",
+    "answer": "Through the Claude Partner Network (organizations can join; individual exam access follows Academy/Skilljar paths)."
+  },
+  {
+    "id": "cca-17",
+    "question": "What investment did Anthropic announce with the Claude Partner Network launch?",
+    "answer": "$100 million partner investment (announced alongside the partner program and certification path)."
+  },
+  {
+    "id": "cca-18",
+    "question": "What does MCP stand for in the Claude ecosystem?",
+    "answer": "Model Context Protocol — used to connect Claude to tools and enterprise data sources."
+  },
+  {
+    "id": "cca-19",
+    "question": "What is Claude Code in certification prep context?",
+    "answer": "Anthropic’s agentic coding tool/workflow — a heavily weighted practical area on the architect exam."
+  },
+  {
+    "id": "cca-20",
+    "question": "What credential do you earn after passing CCA Foundations?",
+    "answer": "Claude Certified Architect (Foundations) — a digital certificate with domain-level score breakdowns."
+  },
+  {
+    "id": "cca-21",
+    "question": "How is the exam scored?",
+    "answer": "Scaled score from 100 to 1,000; 720 required to pass."
+  },
+  {
+    "id": "cca-22",
+    "question": "Are Anthropic Academy prep courses free?",
+    "answer": "Many official preparation courses on Skilljar are free to access; the proctored exam has a separate fee."
+  },
+  {
+    "id": "cca-23",
+    "question": "What roles align with the CCA Foundations credential?",
+    "answer": "Examples include AI architect, LLM application architect, platform engineer, developer, and consultant roles in partner ecosystems."
+  },
+  {
+    "id": "cca-24",
+    "question": "What is Claude Cowork (enterprise context)?",
+    "answer": "Anthropic’s coworking-style agent experience integrated with office tools and enterprise data (e.g., via MCP connectors)."
+  },
+  {
+    "id": "cca-25",
+    "question": "What is the latest flagship Claude model family vendor (exam context)?",
+    "answer": "Anthropic’s Claude 4.x generation models (e.g., Sonnet/Opus tiers) — know current model naming from official docs at exam time."
+  },
+  {
+    "id": "cca-26",
+    "question": "What file pattern helps persist project instructions for Claude Code?",
+    "answer": "CLAUDE.md (project-level guidance consumed by Claude Code workflows)."
+  },
+  {
+    "id": "cca-27",
+    "question": "What is the Agent SDK in certification study?",
+    "answer": "Anthropic’s toolkit for building agentic applications that orchestrate tools, memory, and Claude models in production patterns."
+  },
+  {
+    "id": "cca-28",
+    "question": "Why use structured outputs in production Claude apps?",
+    "answer": "To enforce reliable, schema-valid responses for downstream systems (APIs, workflows, and compliance)."
+  },
+  {
+    "id": "cca-29",
+    "question": "What is a key exam mindset for “production-grade” Claude solutions?",
+    "answer": "Design for safety, observability, cost/latency tradeoffs, tool governance, and human-in-the-loop where needed."
+  },
+  {
+    "id": "cca-30",
+    "question": "Where should you verify exam domains and scenarios before sitting?",
+    "answer": "The official Claude Certified Architect Foundations Exam Guide PDF linked from Anthropic Academy (Skilljar) — content can be updated."
+  }
+]

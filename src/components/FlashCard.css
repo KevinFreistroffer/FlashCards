@@ -98,6 +98,21 @@
   opacity: 0.85;
 }
 
+.flash-card-prompt {
+  font-size: clamp(1rem, 4vw, 1.2rem);
+  line-height: 1.45;
+  text-align: center;
+  font-weight: 500;
+  color: var(--text-h);
+  max-width: 100%;
+  padding: 0 0.25rem;
+}
+
+.flash-card-front--text,
+.flash-card-back--text {
+  padding: 1.5rem 1rem;
+}
+
 .flash-card-english {
   font-size: clamp(1.05rem, 4vw, 1.35rem);
   line-height: 1.45;
@@ -105,6 +120,11 @@
   font-weight: 500;
   color: var(--text-h);
   max-width: 100%;
+}
+
+.flash-card-english--answer {
+  font-weight: 400;
+  font-size: clamp(0.95rem, 3.5vw, 1.15rem);
 }
 
 .flash-card-back-extra {
