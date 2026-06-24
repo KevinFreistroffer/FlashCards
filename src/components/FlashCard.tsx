@@ -1,4 +1,4 @@
-import type { ChineseCard, ClaudeCard } from '../types/cards'
+import type { ChineseCard, QuizCard } from '../types/cards'
 import './FlashCard.css'
 
 export type FlashCardProps =
@@ -10,16 +10,16 @@ export type FlashCardProps =
       onFlip: () => void
     }
   | {
-      topic: 'claude'
-      entry: ClaudeCard
+      topic: 'claude' | 'ai-models'
+      entry: QuizCard
       flipped: boolean
       onFlip: () => void
     }
 
 export function FlashCard(props: FlashCardProps) {
   const { flipped, onFlip } = props
-  const backLabel =
-    props.topic === 'chinese' ? 'Show English answer' : 'Show answer'
+  const isQuiz = props.topic !== 'chinese'
+  const backLabel = isQuiz ? 'Show answer' : 'Show English answer'
 
   return (
     <button

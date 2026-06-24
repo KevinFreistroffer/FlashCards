@@ -1,20 +1,23 @@
 import {
-  CHINESE_BATCH_SIZE,
   clampBatchIndex,
+  DEFAULT_STUDY_SET_SIZE,
   splitIntoBatches,
+  STUDY_SET_SIZES,
 } from './chineseBatches'
 
 describe('splitIntoBatches', () => {
   it('splits into fixed-size chunks with a smaller final chunk', () => {
     const items = Array.from({ length: 55 }, (_, i) => i)
-    const batches = splitIntoBatches(items, 50)
-    expect(batches).toHaveLength(2)
-    expect(batches[0]).toHaveLength(50)
-    expect(batches[1]).toHaveLength(5)
+    const batches = splitIntoBatches(items, 20)
+    expect(batches).toHaveLength(3)
+    expect(batches[0]).toHaveLength(20)
+    expect(batches[1]).toHaveLength(20)
+    expect(batches[2]).toHaveLength(15)
   })
 
-  it('uses CHINESE_BATCH_SIZE of 50', () => {
-    expect(CHINESE_BATCH_SIZE).toBe(50)
+  it('offers study set sizes of 10, 15, and 20', () => {
+    expect(STUDY_SET_SIZES).toEqual([10, 15, 20])
+    expect(DEFAULT_STUDY_SET_SIZE).toBe(10)
   })
 })
 

@@ -1,5 +1,9 @@
-/** Cards per study set — sized for a focused session without overwhelming length. */
-export const CHINESE_BATCH_SIZE = 50
+/** Supported cards-per-set options for focused study sessions. */
+export const STUDY_SET_SIZES = [10, 15, 20] as const
+
+export type StudySetSize = (typeof STUDY_SET_SIZES)[number]
+
+export const DEFAULT_STUDY_SET_SIZE: StudySetSize = 10
 
 export function splitIntoBatches<T>(items: readonly T[], batchSize: number): T[][] {
   if (batchSize < 1) return items.length ? [items.slice()] : []

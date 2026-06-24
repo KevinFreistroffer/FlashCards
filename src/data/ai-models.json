@@ -1,0 +1,152 @@
+[
+  {
+    "id": "aim-1",
+    "question": "What does MMLU-Pro benchmark measure?",
+    "answer": "Graduate-level reasoning across STEM, humanities, and social sciences — a harder successor to the original MMLU multiple-choice suite."
+  },
+  {
+    "id": "aim-2",
+    "question": "What is GPQA (Diamond) designed to test?",
+    "answer": "Expert-level science Q&A written by domain PhDs; models must answer without browsing and with minimal guessing on hard questions."
+  },
+  {
+    "id": "aim-3",
+    "question": "What does SWE-bench Verified evaluate?",
+    "answer": "Whether an AI can fix real GitHub issues in popular open-source repos — a leading agentic coding benchmark in 2025–2026."
+  },
+  {
+    "id": "aim-4",
+    "question": "What is HumanEval (and HumanEval+) used for?",
+    "answer": "Python function-completion from docstrings; HumanEval+ adds harder hidden tests to reduce memorization and inflated scores."
+  },
+  {
+    "id": "aim-5",
+    "question": "What does MATH / MATH-500 measure?",
+    "answer": "Competition-style mathematics problem solving; MATH-500 is a curated subset used for consistent leaderboard comparisons."
+  },
+  {
+    "id": "aim-6",
+    "question": "What is AIME in LLM leaderboards?",
+    "answer": "American Invitational Mathematics Examination problems — a high-difficulty math benchmark where top models are separated on reasoning depth."
+  },
+  {
+    "id": "aim-7",
+    "question": "What does IFEval test?",
+    "answer": "Instruction-following fidelity (format, constraints, and compositional rules) rather than world knowledge alone."
+  },
+  {
+    "id": "aim-8",
+    "question": "What is LiveBench?",
+    "answer": "A contamination-resistant benchmark that releases fresh tasks over time so models cannot be overfit to static public tests."
+  },
+  {
+    "id": "aim-9",
+    "question": "What does MMMU (and MMMU-Pro) benchmark?",
+    "answer": "Multimodal university-level reasoning across images, charts, diagrams, and text — key for vision-language model comparison."
+  },
+  {
+    "id": "aim-10",
+    "question": "What is ARC-AGI?",
+    "answer": "Abstraction and Reasoning Corpus tasks requiring novel pattern generalization — often cited as a frontier beyond memorized knowledge."
+  },
+  {
+    "id": "aim-11",
+    "question": "Who makes Claude, and what is the 2026 flagship tier naming pattern?",
+    "answer": "Anthropic; flagship models use the Claude 4.x family (e.g., Sonnet for balanced speed/quality, Opus for maximum capability)."
+  },
+  {
+    "id": "aim-12",
+    "question": "What is OpenAI’s GPT-5 positioning in 2026?",
+    "answer": "OpenAI’s frontier general-purpose model line (successor to GPT-4.x), offered in API and ChatGPT tiers with strong coding and reasoning."
+  },
+  {
+    "id": "aim-13",
+    "question": "What is Google’s Gemini 2.x family known for?",
+    "answer": "Google DeepMind’s multimodal Gemini models with very long context windows and tight integration with Google Cloud and Workspace."
+  },
+  {
+    "id": "aim-14",
+    "question": "What is Meta’s Llama 4 line?",
+    "answer": "Meta’s open-weights (or partially open) Llama 4 generation — widely used for on-prem, fine-tuning, and cost-efficient inference."
+  },
+  {
+    "id": "aim-15",
+    "question": "What is DeepSeek-R1 known for in 2025–2026?",
+    "answer": "Strong reasoning via reinforcement learning and chain-of-thought style training at competitive cost — influential in open-model ecosystems."
+  },
+  {
+    "id": "aim-16",
+    "question": "What does “context window” mean for an LLM?",
+    "answer": "Maximum tokens (input + output) the model can attend to in one request; larger windows enable long documents and multi-turn tool use."
+  },
+  {
+    "id": "aim-17",
+    "question": "Roughly how large are frontier context windows in 2026?",
+    "answer": "Leading models commonly advertise 200k–1M+ token contexts, though effective quality may degrade before the advertised maximum."
+  },
+  {
+    "id": "aim-18",
+    "question": "What is “reasoning mode” or extended thinking?",
+    "answer": "Models allocate extra internal compute (hidden chain-of-thought or test-time scaling) before answering — improves hard math/coding at higher latency/cost."
+  },
+  {
+    "id": "aim-19",
+    "question": "What is distillation in the model ecosystem?",
+    "answer": "Training a smaller “student” model on outputs or logits from a larger “teacher” to capture capability at lower inference cost."
+  },
+  {
+    "id": "aim-20",
+    "question": "Open weights vs closed API — key tradeoff?",
+    "answer": "Open weights enable self-hosting, fine-tuning, and auditability; closed APIs offer vendor-managed safety, scale, and integrated tooling."
+  },
+  {
+    "id": "aim-21",
+    "question": "What is Mixture-of-Experts (MoE)?",
+    "answer": "Architecture where only a subset of “expert” subnetworks activates per token — more parameters with lower compute per forward pass."
+  },
+  {
+    "id": "aim-22",
+    "question": "What does tokens-per-second (TPS) measure in deployment?",
+    "answer": "Inference throughput — how fast a model generates output tokens, critical for interactive apps and batch cost planning."
+  },
+  {
+    "id": "aim-23",
+    "question": "What is RAG (Retrieval-Augmented Generation)?",
+    "answer": "Fetching relevant documents at query time and injecting them into the prompt so answers stay grounded in private or fresh data."
+  },
+  {
+    "id": "aim-24",
+    "question": "What is MCP (Model Context Protocol)?",
+    "answer": "An open standard (popularized by Anthropic) for connecting models to tools, databases, and enterprise systems via structured servers."
+  },
+  {
+    "id": "aim-25",
+    "question": "What is an agentic coding tool (e.g., Claude Code, Cursor)?",
+    "answer": "An AI workflow that reads repos, edits files, runs commands, and iterates toward a goal — evaluated on SWE-bench-style real tasks."
+  },
+  {
+    "id": "aim-26",
+    "question": "What is structured output / JSON mode used for?",
+    "answer": "Forcing model responses to match a schema so downstream APIs, workflows, and UIs can parse results reliably."
+  },
+  {
+    "id": "aim-27",
+    "question": "What is a common pricing unit for LLM APIs?",
+    "answer": "Cost per million input tokens and per million output tokens (output often priced higher due to generation compute)."
+  },
+  {
+    "id": "aim-28",
+    "question": "What does “eval contamination” mean?",
+    "answer": "When benchmark questions leak into training data, inflating scores — mitigated by private tests, LiveBench, and held-out suites."
+  },
+  {
+    "id": "aim-29",
+    "question": "What is a small vs large model tier strategy?",
+    "answer": "Route easy queries to fast/cheap small models and escalate hard tasks to frontier models — balances latency, cost, and quality."
+  },
+  {
+    "id": "aim-30",
+    "question": "What should you check before trusting a leaderboard number?",
+    "answer": "Exact benchmark version, prompting protocol, tool use allowed, reasoning budget, model snapshot date, and whether results are vendor-reported or independent."
+  }
+]

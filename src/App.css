@@ -106,10 +106,27 @@
   color: var(--text-h);
 }
 
-.app-btn--secondary:hover {
+.app-btn--secondary:hover:not(:disabled) {
   border-color: var(--accent-border);
   background: var(--accent-bg);
   color: var(--accent);
+}
+
+.app-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.app-btn:disabled:hover {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text-h);
+}
+
+.app-btn--secondary:disabled:hover {
+  border-color: var(--border);
+  background: transparent;
+  color: var(--text-h);
 }
 
 .app-hint {
